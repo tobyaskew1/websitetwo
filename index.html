@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Document</title>
+    <link rel="stylesheet" media="only screen and (max-width: 600px)" href="small_screen.css">
+    <link rel="stylesheet" media="only screen and (min-width: 600px) and (max-width: 1024px)" href="tablet_screen.css">
+    <link rel="stylesheet" media="only screen and (min-width: 1024px)" href="computer_screen.css">
+    <title>TAP</title>
 </head>
 <body>
-    <a href="https://www.instagram.com/taprogramming/" target="_blank"></a><img src="images/taprogramming_qr.png" id="insta_link" />
+    <div class="topbar">
+        <img class="logo" src="images/logo.JPG" alt="TA Programming logo">
+        <h1 class="heading">TA Programming</h1>
+        <div class="line"></div>
+        <div class="navbar">
+            <a class="Home"href="#welcome"><b>Home</b></a>
+            <a class="Projects" href="#projects"><b>Projects</b></a>
+            <a class="CV" href="#cv"><b>CV</b></a>
+            <a class="Contact" href="#contact"><b>Contact</b></a>
+        </div>
+    </div>
+    <a href="https://www.instagram.com/taprogramming/" target="_blank"><img src="images/taprogramming_qr.png" id="insta_link" /></a>
 </body>
 </html>

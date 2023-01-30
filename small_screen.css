@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+}
+
+.logo {
+    width: 10%;
+    height: auto;
+}
+.heading {
+    text-align: center;
+    margin-top: -9%;
+    font-size: large;
+}
+
+#insta_link {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
